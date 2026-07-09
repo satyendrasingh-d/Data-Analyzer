@@ -10,7 +10,7 @@ from langchain_groq import ChatGroq
 from abc import ABC, abstractmethod
 
 # Set API Key directly for testing
-os.environ["GROQ_API_KEY"] = "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"
+os.environ["GROQ_API_KEY"] = "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"
 
 # Initialize LLM
 llm = ChatGroq(
