@@ -161,8 +161,12 @@ analysis_workflow = analysis_graph.compile()
 
 # Master Agent Class
 class UniversalAIAgent:
-    def analyze(self, state):
+
+    def analyze(self,state):
         return analysis_workflow.invoke(state)
+
+    def chat_with_data(self,state):
+        return chat_workflow.invoke(state)
 
 # Initialize Agent
 agent = UniversalAIAgent()
