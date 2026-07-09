@@ -1,12 +1,12 @@
 # Data-Analyzer 
 Live Demo: https://universal-ai-data-analyst-agent-002586.streamlit.app/
 
-📊 Universal AI Data Analyst Agent
+# Universal AI Data Analyst Agent
 An AI-powered Data Analysis application built with Python, Streamlit, LangGraph, LangChain, and Groq LLM. The application enables users to upload datasets, perform automated exploratory data analysis (EDA), generate visualizations, receive AI-powered insights, chat with datasets using natural language, and download analysis reports.
 
 This project demonstrates how modern AI agents can automate data analysis workflows and make data exploration accessible without requiring advanced programming knowledge.
 
-🚀 Features
+# Features
 Upload CSV, Excel, and JSON datasets
 
 Interactive dataset preview
@@ -31,7 +31,7 @@ Automatic report generation
 
 Modern Streamlit user interface
 
-🧠 AI Capabilities
+# AI Capabilities
 
 The AI Agent can:
 
@@ -53,7 +53,7 @@ Generate analytical responses using LLM
 
 Produce intelligent reports
 
-🛠 Technologies Used
+# Technologies Used
 
 Python
 
@@ -78,7 +78,7 @@ Matplotlib
 
 These technologies are commonly used for building AI-powered data applications and interactive analytics dashboards.
 
-📂 Supported File Formats
+# Supported File Formats
 
 CSV
 
