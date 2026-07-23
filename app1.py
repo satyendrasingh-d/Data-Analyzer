@@ -10,7 +10,7 @@ from langchain_groq import ChatGroq
 from abc import ABC, abstractmethod
 
 # Set API Key directly for testing
-os.environ["GROQ_API_KEY"] = "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"
+os.environ["GROQ_API_KEY"] = "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"
 
 # Initialize LLM
 llm = ChatGroq(
@@ -491,7 +491,7 @@ elif page == "Download Report":
     st.header("📄 Download Report")
     
     if "analysis_result" not in st.session_state:
-        st.warning("⚠️ Pehle 'AI Analysis' module me jaakar Analysis run karein.")
+        st.warning("⚠️ First, Go to the AI Analysis module and run the analysis.")
     else:
         st.success("✅ Report ready hai!")
         
